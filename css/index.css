@@ -1,0 +1,48 @@
+.all-msg {
+	height:75%;
+	background-color: white;
+	margin-bottom:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	overflow-x:scroll;
+	overflow-x:hidden;
+}
+.single-msg {
+	margin-bottom: 16px;
+	background-color: white;
+}
+.img-style {
+	float: left;
+	margin-left:20px;
+}
+.msg-style {
+	max-width: 70%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+	font-size:14px;
+	padding-top: 9px;
+	padding-right: 13px;
+	padding-bottom: 9px;
+	padding-left: 13px;
+	background: #B2E281;
+	text-align: left;
+	font-family: Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+	line-height: 1.6;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.time-style {
+	text-align: center;
+	margin: 10px auto;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	max-width: 50%;
+	font-family: Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+	line-height: 1.6;
+	font-size: 12px;
+	padding: 1px 18px;
+	color: #b2b2b2;
+}

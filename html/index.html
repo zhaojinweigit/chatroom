@@ -1,0 +1,58 @@
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>聊天室</title>
+		<link rel="shortcut icon" href="/image/zjw.jpg">
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/index.css">
+	</head>
+	<body>
+		<div class="container mycontainer" >
+			<div class="row">
+				<div class="col-sm-12 text-center" >
+					<h1>聊天室</h1>
+				</div>
+			</div>
+
+			<div class="all-msg" >
+			</div>
+		
+
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="input-group">
+						<textarea type="text" class="form-control" id="input_msg" rows="1"></textarea>
+						<span class="input-group-btn">
+						<button class="btn btn-default" type="button" id="button_send">&nbsp;&nbsp;<span class="glyphicon glyphicon-send"></span>&nbsp;&nbsp;</button>
+						</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+        <div class="modal fade" id="modal_login">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title">输入昵称进入聊天室</h4>
+                    </div>
+                    <div class="modal-body">
+						<input type="text" class="form-control" id="input_loginname" placeholder="昵称" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="button_login">&nbsp;ok&nbsp;</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+		<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="/js/index.js"></script>
+	</body>
+</html>
